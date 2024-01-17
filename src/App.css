@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #001d5c;
+  height: 70vh;
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-txt {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  gap: 15px;
+  color: #ffffff;
+  text-wrap: balance;
+}
+
+.header-txt p{
+  color: rgb(221, 221, 221);
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: 700px;
+}
+.btn1 {
+  padding: 14px 22px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  background-color: #2452a1;
+  font-weight: 600;
+  cursor: pointer;
+}
+.imgBernardo {
+  border: 4px solid rgb(255, 255, 255);
+  width: 350px;
+  height: 350px;
+  border-radius: 79% 21% 78% 22% / 20% 69% 31% 80%;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  padding: 30px;
+  gap: 30px;
+  justify-content: flex-end;
+}
+
+nav ul li a {
+  color: #ffffff;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons1{
+  color: #25D366;
+  cursor: pointer;
+}
+
+.icons2{
+  color: #BC2A8D;
+  cursor: pointer;
+}
+
+
+.toggle-switch {
+  position: relative;
+  width: 60px; /* Ajusta el ancho según tu preferencia */
+  height: 30px; /* Ajusta el alto según tu preferencia */
+  --light: #d8dbe0;
+  --dark: #28292c;
+  --link: rgb(27, 129, 112);
+  --link-hover: rgb(24, 94, 82);
+}
+
+.switch-label {
+  position: absolute;
+  width: 100%;
+  height: 30px; /* Ajusta el alto según tu preferencia */
+  background-color: var(--dark);
+  border-radius: 15px; /* La mitad del alto para mantener la forma circular */
+  cursor: pointer;
+  border: 2px solid var(--dark);
+}
+
+.checkbox {
+  position: absolute;
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px; /* La mitad del alto para mantener la forma circular */
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.checkbox:checked ~ .slider {
+  background-color: var(--light);
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  top: 5px; /* Ajusta la posición vertical del botón según tu preferencia */
+  left: 5px; /* Ajusta la posición horizontal del botón según tu preferencia */
+  width: 20px; /* Ajusta el ancho del botón según tu preferencia */
+  height: 20px; /* Ajusta el alto del botón según tu preferencia */
+  border-radius: 50%;
+  -webkit-box-shadow: inset 8px -2px 0px 0px var(--light);
+  box-shadow: inset 8px -2px 0px 0px var(--light);
+  background-color: var(--dark);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.checkbox:checked ~ .slider::before {
+  -webkit-transform: translateX(30px); /* Ajusta la posición del botón cuando el switch está activado */
+  -ms-transform: translateX(30px);
+  transform: translateX(30px);
+  background-color: var(--dark);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
