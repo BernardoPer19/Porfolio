@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './Components/Header'
 import MainTec from './Components/MainTec'
+import Proyectos from './Components/Proyectos'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header></Header>
       <MainTec></MainTec>
+      <Proyectos></Proyectos>
     </>
   )
 }
