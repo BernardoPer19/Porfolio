@@ -50,7 +50,7 @@ const Header = () => {
           <img src="" alt="" />
         </div>
       </div>
-      <div className="svg" style={{ height: "180px", overflow: "hidden" }}>
+      <div className="svg" style={{ height: "220px", overflow: "hidden" }}>
         <svg
           viewBox="0 0 500 150"
           preserveAspectRatio="none"
