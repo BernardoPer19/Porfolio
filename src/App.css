@@ -18,8 +18,8 @@ body {
 }
 
 header {
-  background-color: #001d5c;
-  height: 60vh;
+  background-color: #F3EEEA;
+  height: 70vh;
   width: 100%;
 }
 
@@ -42,11 +42,11 @@ header {
   text-wrap: balance;
 }
 .span1{
-  color: #61DAFB;
+  color: #B0A695  ;
 }
 
 .header-txt p{
-  color: rgb(208, 208, 208);
+  color: #776B5D ;
 }
 
 .btns {
@@ -61,21 +61,28 @@ header {
   border-radius: 10px;
   border: none;
   color: #ffffff;
-  background-color: #2452a1;
+  background-color: #90794f ;
   font-weight: 600;
   cursor: pointer;
 }
 .imgBernardo {
   border: 4px solid rgb(255, 255, 255);
-  width: 280px;
-  height: 280px;
+  width: 310px;
+  height: 340px;
+  background:url(assets/wawaso.jpg) ;
+  background-position: center center;
+  background-size: cover;
   border-radius: 79% 21% 78% 22% / 20% 69% 31% 80%;
 }
 
 .contact{
   padding: 10px 20px;
-  background-color: #2452a1;
+  background-color: #90794f ;
   border-radius: 10px;
+  color: #ffffff;
+}
+.header-txt h1{
+  color: #90794f    ;
 }
 
 nav {
@@ -90,7 +97,8 @@ nav ul {
 }
 
 nav ul li a {
-  color: #ffffff;
+  color: #776B5D ;
+  font-weight: 500;
 }
 
 .menu{
@@ -181,19 +189,19 @@ nav ul li a {
 /*MAIN*/
 
 main{
-  margin-top: 1px;
+
   min-height: 50vh;
-  background-color: #003175;
+  background-color: #EBE3D5 ;
   padding: 50px;
 }
 
 main p{
-  color: #dedede;
+  color: #776B5D ;
 }
 
 main h1{
   padding-top: 100px;
-  color: #fff;
+  color: #90794f ;
   padding-bottom: 50px;
 }
 
@@ -233,19 +241,21 @@ main h1{
 /*PROYECTOS*/
 
 section{
-  min-height: 110vh;
-  background-color: #001d5c;
+  min-height: 120vh;
+  background-color: #F3EEEA ;
+  padding: 50px;
 }
 .hunu{
   padding-top: 50px;
   text-align: center;
   font-size: 2.4rem;
-  color: #61DAFB;
+  color: #90794f;
 }
 .container-proyects{
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
+  position: relative;
   justify-content: center;
   align-items: center;
   padding-top: 100px;
@@ -310,7 +320,7 @@ section{
 
 .proyect6{
   background: url(assets/GeneradorDeColores.png);
-   border: 2px solid ;
+  border: 2px solid #ffffff;
   width: 350px;
   height: 200px;
   object-fit: cover;
@@ -469,15 +479,21 @@ section{
   letter-spacing: 1px;
 }
 
-
-
-
-.button:hover {
-  background: #a549da62;
-}
-
 .btnsProyectsTec{
   display: flex;
   gap: 20px;
   padding-top: 10px;
+}
+
+/*MODAL*/
+
+.modal{
+  background-color: #fff;
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  z-index: 12321;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
 }

@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "title": "Cafeteria Frapucho",
+      "content": "Contenido del modal para Cafeteria Frapucho...",
+      "techStack": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 2,
+      "title": "Orientando Un Futuro",
+      "content": "Contenido del modal para Orientando Un Futuro..."
+    }
+  ]
+  

@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaReact } from "react-icons/fa6";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaCss3Alt } from "react-icons/fa";
 
+
 const Proyectos = () => {
+
+
+  const handleModal = () => {
+    setModalIsTrue((prevState) => !prevState);
+  };
+
   return (
     <section>
       <h1 className="hunu">Mira Mis Proyectos!</h1>
@@ -12,14 +19,16 @@ const Proyectos = () => {
         {/* Container 1 */}
         <div className="container1">
           <div className="proyect1 proy">
-          <div className="btsP">
-            <div className="tituloProyect">
-            <h1>Cafeteria Frapucho <br /> <h5>(E-comerce)</h5></h1>
-            </div>
-             <div className="btnsProyectInfo">
-             <button>Ver Proyecto</button>
-              <button>Mira Mi Aprendizaje!</button>
-             </div>
+            <div className="btsP">
+              <div className="tituloProyect">
+                <h1>
+                  Cafeteria Frapucho <br /> <h5>(E-comerce)</h5>
+                </h1>
+              </div>
+              <div className="btnsProyectInfo">
+                <button>Ver Proyecto</button>
+                <button onClick={handleModal}>Mira Mi Aprendizaje!</button>
+              </div>
             </div>
           </div>
           <div className="btnsProyectsTec">
@@ -36,19 +45,20 @@ const Proyectos = () => {
               <span className="lable3">JS</span>
             </button>
           </div>
+         
         </div>
 
         {/* Container 2 */}
         <div className="container2">
           <div className="proyect2 proy">
             <div className="btsP">
-            <div className="tituloProyect">
-            <h1>Orientando Un Futuro</h1>
-            </div>
-             <div className="btnsProyectInfo">
-             <button>Ver Proyecto</button>
-              <button>Mira Mi Aprendizaje!</button>
-             </div>
+              <div className="tituloProyect">
+                <h1>Orientando Un Futuro</h1>
+              </div>
+              <div className="btnsProyectInfo">
+                <button>Ver Proyecto</button>
+                <button onClick={handleModal}>Mira Mi Aprendizaje!</button>
+              </div>
             </div>
           </div>
           <div className="btnsProyectsTec">
@@ -70,18 +80,18 @@ const Proyectos = () => {
         {/* Container 3 */}
         <div className="container3">
           <div className="proyect3 proy">
-          <div className="btsP">
-            <div className="tituloProyect">
-            <h1>B&B Labs Web</h1>
-            </div>
-             <div className="btnsProyectInfo">
-             <button>Ver Proyecto</button>
-              <button>Mira Mi Aprendizaje!</button>
-             </div>
+            <div className="btsP">
+              <div className="tituloProyect">
+                <h1>B&B Labs Web</h1>
+              </div>
+              <div className="btnsProyectInfo">
+                <button>Ver Proyecto</button>
+                <button onClick={handleModal}>Mira Mi Aprendizaje!</button>
+              </div>
             </div>
           </div>
           <div className="btnsProyectsTec">
-          <button className="button1">
+            <button className="button1">
               <FaHtml5 size={15} style={{ color: "#E44D26" }} />{" "}
               <span className="lable1">HTML </span>
             </button>
@@ -98,14 +108,14 @@ const Proyectos = () => {
         {/* Container 4 */}
         <div className="container4">
           <div className="proyect4 proy">
-          <div className="btsP">
-            <div className="tituloProyect">
-            <h1>Buscador De Estudiantes</h1>
-            </div>
-             <div className="btnsProyectInfo">
-             <button>Ver Proyecto</button>
-              <button>Mira Mi Aprendizaje!</button>
-             </div>
+            <div className="btsP">
+              <div className="tituloProyect">
+                <h1>Buscador De Estudiantes</h1>
+              </div>
+              <div className="btnsProyectInfo">
+                <button>Ver Proyecto</button>
+                <button onClick={handleModal}>Mira Mi Aprendizaje!</button>
+              </div>
             </div>
           </div>
           <div className="btnsProyectsTec">
@@ -126,14 +136,14 @@ const Proyectos = () => {
 
         <div className="container5">
           <div className="proyect5 proy">
-          <div className="btsP">
-            <div className="tituloProyect">
-            <h1>E-comerce Con Api/Fetch</h1>
-            </div>
-             <div className="btnsProyectInfo">
-             <button>Ver Proyecto</button>
-              <button>Mira Mi Aprendizaje!</button>
-             </div>
+            <div className="btsP">
+              <div className="tituloProyect">
+                <h1>E-comerce Con Api/Fetch</h1>
+              </div>
+              <div className="btnsProyectInfo">
+                <button>Ver Proyecto</button>
+                <button onClick={handleModal}>Mira Mi Aprendizaje!</button>
+              </div>
             </div>
           </div>
           <div className="btnsProyectsTec">
@@ -154,14 +164,14 @@ const Proyectos = () => {
 
         <div className="container6">
           <div className="proyect6 proy">
-          <div className="btsP">
-            <div className="tituloProyect">
-            <h1>Generador De Colores</h1>
-            </div>
-             <div className="btnsProyectInfo">
-             <button>Ver Proyecto</button>
-              <button>Mira Mi Aprendizaje!</button>
-             </div>
+            <div className="btsP">
+              <div className="tituloProyect">
+                <h1>Generador De Colores</h1>
+              </div>
+              <div className="btnsProyectInfo">
+                <button>Ver Proyecto</button>
+                <button onClick={handleModal}>Mira Mi Aprendizaje!</button>
+              </div>
             </div>
           </div>
           <div className="btnsProyectsTec">

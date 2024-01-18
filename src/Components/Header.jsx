@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <header>
       <div className="menu  container">
-        <div class="toggle-switch">
-          <label class="switch-label">
-            <input type="checkbox" class="checkbox" />
-            <span class="slider"></span>
+        <div className="toggle-switch">
+          <label className="switch-label">
+            <input type="checkbox" className="checkbox" />
+            <span className="slider"></span>
           </label>
         </div>
         <nav>
@@ -37,8 +37,7 @@ const Header = () => {
           <p>
             ¡Hola! Mi nombre es Bernardo Peredo, tengo 17 años y soy un
             freelancer especializado en desarrollo web. Me apasiona aprender y
-            practicar programación todos los días para mejorar mis habilidades y
-            ofrecer servicios de alta calidad.
+            practicar todos los días para ofrecer servicios de alta calidad.
           </p>
           <div className="btns">
             <button className="btn1">Ver CV</button>
@@ -47,10 +46,10 @@ const Header = () => {
           </div>
         </div>
         <div className="imgBernardo">
-          <img src="" alt="" />
+          <img src="assets/wawaso.jpg" alt="" />
         </div>
       </div>
-      <div className="svg" style={{ height: "220px", overflow: "hidden" }}>
+      {/* <div className="svg" style={{ height: "220px", overflow: "hidden" }}>
         <svg
           viewBox="0 0 500 150"
           preserveAspectRatio="none"
@@ -58,10 +57,10 @@ const Header = () => {
         >
           <path
             d="M-1.97,80.44 C119.92,127.80 271.49,-49.98 500.27,93.27 L500.00,0.00 L0.00,0.00 Z"
-            style={{ stroke: "none", fill: "#001d5c" }}
+            style={{ stroke: "none", fill: "#f3f3f3" }}
           ></path>
         </svg>
-      </div>
+      </div> */}
     </header>
   );
 };
