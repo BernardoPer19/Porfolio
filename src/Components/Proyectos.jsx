@@ -80,7 +80,7 @@ const Proyectos = () => {
               <div className="tituloProyect">
                 <h1>Buscador De Estudiantes</h1>
               </div>
-              <BoxBtnInsideProyect2 projectNumber={3} />
+              <BoxBtnInsideProyect2 projectNumber={3} projectNumber2={"https://bernardoper19.github.io/BuscadorEstudiantes/"}/>
             </div>
           </div>
 
@@ -95,12 +95,12 @@ const Proyectos = () => {
                 <h1>E-comerce Con Api/Fetch</h1>
               </div>
 
-              <BoxBtnInsideProyect2 projectNumber={4} />
+              <BoxBtnInsideProyect2 projectNumber={4}  projectNumber2={"https://bernardoper19.github.io/E-comerce-React/"}/>
             </div>
           </div>
           <ButtonProyectComponent></ButtonProyectComponent>
         </div>
-        {modalStates[4] && <ModalComponent projectNumber={4} />}
+        {modalStates[4] && <ModalComponent projectNumber={4}/>}
 
         <div className="container6">
           <div className="proyect6 proy">
@@ -109,7 +109,7 @@ const Proyectos = () => {
                 <h1>Generador De Colores</h1>
               </div>
 
-              <BoxBtnInsideProyect2 projectNumber={5} />
+              <BoxBtnInsideProyect2 projectNumber={5} projectNumber2={"https://bernardoper19.github.io/ColoresPaletas/"}/>
             </div>
           </div>
           <ButtonProyectComponent></ButtonProyectComponent>

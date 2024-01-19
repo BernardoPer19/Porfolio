@@ -13,6 +13,8 @@ export const ContextPorfolioProvider = ({ children }) => {
     DestacadosL: "#776B5D",
     backL2: "#f5f5f5",
     yo1: "assets/wawaso.jpg",
+    blanco: "#ffffff",
+    negro: "#000"
 
     // Agrega otros colores según sea necesario
   };

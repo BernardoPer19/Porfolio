@@ -6,71 +6,106 @@ import { IoMdMenu } from "react-icons/io";
 
 const Header = () => {
   const { isDarkMode, theme, toggleDarkMode } = usePorfolioContext();
-  const [toggleClick,setToggleClick]=useState(true)
+  const [toggleClick, setToggleClick] = useState(false);
 
   const handleMenu = () => {
-    setToggleClick(prevState => !prevState);
+    setToggleClick(!toggleClick);
   };
   return (
-    <header style={{ background: isDarkMode ? theme.backgrounD : theme.backgroundL }}>
-      <IoMdMenu onClick={handleMenu} className="muneBtn" size={60} style={{
-                color: isDarkMode ? theme.textD : theme.textD,
-              }} />
-
-
-      {
-        toggleClick && (
-          <div className="menu  container">
-        <div className="toggle-switch">
-          <label className="switch-label">
-            <input
-              type="checkbox"
-              className="checkbox"
-              checked={isDarkMode}
-              onChange={toggleDarkMode}
-            />
-            <span className="slider"></span>
-          </label>
+    <header
+      style={{ background: isDarkMode ? theme.backgrounD : theme.backgroundL }}
+    >
+      <IoMdMenu
+        onClick={handleMenu}
+        className="muneBtn" // Ajusta la clase aquí
+        size={60}
+        style={{
+          color: isDarkMode ? theme.textD : theme.negro,
+        }}
+      />
+      {toggleClick && (
+        <div className="menu">
+          <div className="menuCaja">
+            <nav>
+              <ul>
+                <li>
+                  <div className="boxSwich">
+                    <div className="toggle-switch">
+                      <label className="switch-label">
+                        <input
+                          type="checkbox"
+                          className="checkbox"
+                          checked={isDarkMode}
+                          onChange={toggleDarkMode}
+                        />
+                        <span className="slider"></span>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    style={{
+                      color: isDarkMode ? theme.textD : theme.textD,
+                    }}
+                  >
+                    Inicio
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    style={{
+                      color: isDarkMode ? theme.textD : theme.textD,
+                    }}
+                  >
+                    Sobre Mi
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    style={{
+                      color: isDarkMode ? theme.textD : theme.textD,
+                    }}
+                  >
+                    Mis Proyectos
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="contact"
+                    href=""
+                    style={{
+                      color: isDarkMode ? theme.textD : theme.textD,
+                    }}
+                  >
+                    Contactame!
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        
-        <nav>
-          <ul>
-            <li>
-              <a href=""  style={{
-                color: isDarkMode ? theme.textD : theme.textD,
-              }}>Inicio</a>
-            </li>
-            <li>
-              <a href=""  style={{
-                color: isDarkMode ? theme.textD : theme.textD,
-              }}>Sobre Mi</a>
-            </li>
-            <li>
-              <a href="" style={{
-                color: isDarkMode ? theme.textD : theme.textD,
-              }}>Mis Proyectos</a>
-            </li>
-            <li>
-              <a className="contact" href=""  style={{
-                color: isDarkMode ? theme.textD : theme.textD,
-              }}>
-                Contactame!
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-        )
-      }
+      )}
 
-      <div className="header-content container">
+      <div className="header-content">
         <div className="header-txt">
-          <h1 style={{
-                color: isDarkMode ? theme.detallenosD : theme.textD,
-              }}>
-            Desarollador Frontend <span className="span1" style={{
+          <h1
+            style={{
+              color: isDarkMode ? theme.detallenosD : theme.textD,
+            }}
+          >
+            Desarollador Frontend{" "}
+            <span
+              className="span1"
+              style={{
                 color: isDarkMode ? theme.textD : theme.textD,
-              }}>React</span>
+              }}
+            >
+              React
+            </span>
           </h1>
           <p style={{ color: isDarkMode ? theme.textD : theme.textL }}>
             ¡Hola! Mi nombre es Bernardo Peredo, tengo 17 años y soy un
@@ -88,13 +123,12 @@ const Header = () => {
             </button>
 
             <div className="btnsRedes">
-            <FaWhatsapp size={30} className="icons1" />
-            <FaInstagram size={30} className="icons2" />
+              <FaWhatsapp size={30} className="icons1" />
+              <FaInstagram size={30} className="icons2" />
             </div>
           </div>
         </div>
-        <div className="imgBernardo">
-        </div>
+        <div className="imgBernardo"></div>
       </div>
     </header>
   );
