@@ -22,14 +22,14 @@ const ModalComponent = ({ projectNumber }) => {
             background: isDarkMode ? theme.backgroun2D : theme.backL2,
           }}
         >
-          <button onClick={() => handleProjectModal(projectNumber)}>X</button>
+          <button className='close' onClick={() => handleProjectModal(projectNumber)}>X</button>
           <div className="megaCOntainer">
             <div className="modalContent">
               <div className="imgModalConteinr">
                 <h1 style={{ color: isDarkMode ? theme.detallenos2D : theme.textD }}>
                   {currentProject.title}
                 </h1>
-                <img src={currentProject.img} alt={currentProject.title} className='imgModal' />
+                <img src={`src/${currentProject.img}`} alt={currentProject.title} className='imgModal' />
                 {/* Agrega más contenido según sea necesario */}
               </div>
 
@@ -49,6 +49,9 @@ const ModalComponent = ({ projectNumber }) => {
               </h1>
               <p style={{ color: isDarkMode ? theme.textD : theme.textL }}>
                 {currentProject.aprendizaje}
+              </p>
+              <p style={{ color: isDarkMode ? theme.textD : theme.textL }}>
+                <h1 style={{ color: isDarkMode ? theme.detallenos2D : theme.textD }}>Debilidad en el proyecto:</h1>{currentProject.loDificil}
               </p>
 
             </div>

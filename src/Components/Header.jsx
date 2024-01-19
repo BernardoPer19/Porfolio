@@ -71,7 +71,6 @@ const Header = () => {
           </div>
         </div>
         <div className="imgBernardo">
-          <img src="" alt=""   />
         </div>
       </div>
     </header>

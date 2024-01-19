@@ -5,6 +5,7 @@
   margin: 0;
   list-style: none;
   text-decoration: none;
+  /* border: 1px solid red; */
 }
 .container {
   max-width: 1100px;
@@ -223,6 +224,7 @@ main h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
 .tecnologias {
   display: flex;
@@ -230,6 +232,7 @@ main h1 {
   text-align: center;
   justify-content: center;
   align-items: center;
+  
   flex-direction: column;
 }
 
@@ -327,6 +330,7 @@ section {
   background-position: center;
   background-size: cover;
   position: relative;
+  
 }
 
 .btsP {
@@ -357,6 +361,7 @@ section {
   color: #fff;
   display: none;
 }
+
 
 .proy {
   position: relative;
@@ -526,3 +531,143 @@ section {
   position: absolute;
   margin-top: 250px;
 }
+
+
+.close{
+  border: none;
+  background-color: transparent;
+  color:  red;
+  font-size: 30px;
+}
+
+
+
+@media only screen and (max-width: 830px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Header */
+  header {
+    height: 120vh;
+    padding: 20px;
+    width:94.2%;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-content {
+    flex-direction: column;
+  }
+
+  .header-txt {
+    width: 100%;
+    max-width: none;
+    text-align: center;
+  }
+
+  .btns {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .btn1 {
+    margin-bottom: 15px;
+  }
+
+  .imgBernardo {
+    width: 50%;
+    height: 400px; /* Ajusta según tu preferencia */
+    margin-top: -50px;
+  }
+}
+
+/* Ajuste específico para dispositivos pequeños */
+@media only screen and (max-width: 480px) {
+  .header-txt {
+    font-size: 16px; /* Ajusta según tu preferencia */
+  }
+}
+  
+
+
+@media(max-width: 992px) {
+  .imgBernardo {
+    width: 300px;
+    height: 300px; /* Ajusta según tu preferencia */
+  }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    /* Header */
+    header {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .menu {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      padding: 0;
+      gap: 15px;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .header-content {
+      flex-direction: column;
+    }
+  
+    .header-txt {
+      width: 100%;
+      max-width: none;
+      text-align: center;
+    }
+  
+    .btns {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .btn1 {
+      margin-bottom: 15px;
+    }
+  
+  
+    .header-txt {
+      font-size: 14px; /* Ajusta según tu preferencia */
+    }
+  }
