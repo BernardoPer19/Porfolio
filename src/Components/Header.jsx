@@ -1,29 +1,40 @@
 import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
+import { usePorfolioContext } from "../Context/ContextPorfolio";
+
 const Header = () => {
+  const { isDarkMode, theme, toggleDarkMode } = usePorfolioContext();
+
   return (
-    <header>
+    <header style={{ background: isDarkMode ? theme.backgrounD : theme.backgroundL }}>
       <div className="menu  container">
         <div className="toggle-switch">
           <label className="switch-label">
-            <input type="checkbox" className="checkbox" />
+            <input
+              type="checkbox"
+              className="checkbox"
+              checked={isDarkMode}
+              onChange={toggleDarkMode}
+            />
             <span className="slider"></span>
           </label>
         </div>
         <nav>
           <ul>
             <li>
-              <a href="">Inicio</a>
+              <a href=""  style={{ color: isDarkMode ? theme.textD : theme.textL }}>Inicio</a>
             </li>
             <li>
-              <a href="">Sobre Mi</a>
+              <a href=""  style={{ color: isDarkMode ? theme.textD : theme.textL }}>Sobre Mi</a>
             </li>
             <li>
-              <a href="">Mis Proyectos</a>
+              <a href=""  style={{ color: isDarkMode ? theme.textD : theme.textL }}>Mis Proyectos</a>
             </li>
             <li>
-              <a className="contact" href="">
+              <a className="contact" href=""  style={{
+                color: isDarkMode ? theme.textD : theme.textD,
+              }}>
                 Contactame!
               </a>
             </li>
@@ -33,34 +44,36 @@ const Header = () => {
 
       <div className="header-content container">
         <div className="header-txt">
-          <h1>Desarollador Frontend <span className="span1">React</span></h1>
-          <p>
+          <h1 style={{
+                color: isDarkMode ? theme.detallenosD : theme.textD,
+              }}>
+            Desarollador Frontend <span className="span1" style={{
+                color: isDarkMode ? theme.textD : theme.textD,
+              }}>React</span>
+          </h1>
+          <p style={{ color: isDarkMode ? theme.textD : theme.textL }}>
             ¡Hola! Mi nombre es Bernardo Peredo, tengo 17 años y soy un
             freelancer especializado en desarrollo web. Me apasiona aprender y
             practicar todos los días para ofrecer servicios de alta calidad.
           </p>
           <div className="btns">
-            <button className="btn1">Ver CV</button>
+            <button
+              className="btn1"
+              style={{
+                background: isDarkMode ? theme.botonesD : theme.botones2L,
+              }}
+            >
+              Ver CV
+            </button>
+
             <FaWhatsapp size={30} className="icons1" />
             <FaInstagram size={30} className="icons2" />
           </div>
         </div>
         <div className="imgBernardo">
-          <img src="assets/wawaso.jpg" alt="" />
+          <img src="" alt=""   />
         </div>
       </div>
-      {/* <div className="svg" style={{ height: "220px", overflow: "hidden" }}>
-        <svg
-          viewBox="0 0 500 150"
-          preserveAspectRatio="none"
-          style={{ height: "100%", width: "100%" }}
-        >
-          <path
-            d="M-1.97,80.44 C119.92,127.80 271.49,-49.98 500.27,93.27 L500.00,0.00 L0.00,0.00 Z"
-            style={{ stroke: "none", fill: "#f3f3f3" }}
-          ></path>
-        </svg>
-      </div> */}
     </header>
   );
 };

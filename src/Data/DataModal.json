@@ -1,14 +1,60 @@
 [
-    {
-      "id": 1,
-      "title": "Cafeteria Frapucho",
-      "content": "Contenido del modal para Cafeteria Frapucho...",
-      "techStack": ["HTML", "CSS", "JavaScript"]
-    },
-    {
-      "id": 2,
-      "title": "Orientando Un Futuro",
-      "content": "Contenido del modal para Orientando Un Futuro..."
-    }
-  ]
-  
+  {
+    "id": 0,
+    "title": "Cafeteria Frapucho JS",
+    "content": "Esta cafetería fue diseñada y creada por mí. Es una idea ficticia para prácticas en el DOM y funcionalidades en el e-commerce. Tiene 2 secciones accesibles: La tienda y Sobre Nosotros",
+    "aprendizaje": "Aprendí mucho y mejoré en la estructuración de páginas web en HTML. También aprendí a lograr una armonía visual agradable en CSS y a manejar el DOM en JS. Esto incluye la implementación de funcionalidades como carrito de compras, secciones de compra, slider de imágenes y el uso de bibliotecas.",
+    "loDificil": "  Mi reto fue el carrito; simplemente fue un dolor de cabeza con el que pude salir satisfecho al completarlo. También la lógica fue algo que me complicó, es algo en lo que estoy en constante mejora.",
+    "techStack": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 1,
+    "title": "Orientando Un Futuro",
+    "img" : "src/assets/orientando.png",
+    "content":"El proyecto más grande actualmente que tengo consta de aproximadamente 60 páginas. Este proyecto fue diseñado con el objetivo de ayudar a los estudiantes a elegir su carrera profesional, ofreciendo información completa sobre varias opciones. Fuimos tres personas trabajando en este proyecto, y yo asumí el rol de líder y desarrollador principal. Con este proyecto, obtuve mi excelencia y obtuve el título de técnico medio en ingeniería informática en sistemas. Actualmente, ya ha sido vendido a cinco colegios y ha beneficiado a más de 150 personas que han encontrado útil esta página.",
+    "aprendizaje": "Aprendí cómo es trabajar en equipo y ser líder de un proyecto grande, organizar tiempos y horarios. Aunque fue difícil acostumbrarse, es algo que me ayudó mucho. También aprendí a exponer de manera más clara. Una de las cosas más importantes fue el diseño UX/UI, que comenzó a gustarme desde este proyecto.",
+    "loDificil": "Lo difícil fue la cantidad de páginas que tuve que crear y la investigación del proyecto. Una de las dificultades también fue la irresponsabilidad de un compañero, pero supimos afrontarlo igualmente. Fue un desafío bastante grande, ya que hubo varios factores que influyeron en poder completarlo en tan solo 2 semanas.",
+    "techStack": ["HTML", "CSS", "JavaScript"]
+    
+  },
+  {
+    "id": 2,
+    "title": "B&B WEB",
+    "content": "aaaa",
+    "aprendizaje": "mandasdejar dadssdal DOM enasdadasdas JS. E",
+    "loDificil": "   dasdasdmeadjoraas.",
+    "techStack": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 3,
+    "title": "mredasdact mreact mreact",
+    "content": "Esdasdtasdas mredasdaact ",
+    "aprendizaje": "mreaasdct",
+    "loDificil": "   mejaasdasdasdora.",
+    "techStack": ["HTML", "CSS", "react"]
+  },
+  {
+    "id": 4,
+    "title": "DOMpene Un DOMpene",
+    "content": "DOMpene cafeteDOMpenería ",
+    "aprendizaje": "manejar el DOMpene en JS. E",
+    "loDificil": "   mreact.",
+    "techStack": ["mreact", "CSS", "JavaScript"]
+  },
+  {
+    "id": 5,
+    "title": "manejar Un Futvmanejaruro",
+    "content": "Esmanejarta DOMpene ",
+    "aprendizaje": "manejar el DOM en JS. E",
+    "loDificil": "   mejora.",
+    "techStack": ["HTML", "CSS", "JavaScmanejarript"]
+  },
+  {
+    "id": 6,
+    "title": "manejar Un Futvmanejaruro",
+    "content": "Esmanejarta DOMpene ",
+    "aprendizaje": "manejar el DOM en JS. E",
+    "loDificil": "   mejora.",
+    "techStack": ["HTML", "CSS", "JavaScmanejarript"]
+  }
+]

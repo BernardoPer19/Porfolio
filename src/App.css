@@ -10,7 +10,11 @@
   max-width: 1100px;
   margin: 0 auto;
 }
-h5{
+
+p{
+  font-size: 14px;
+}
+h5 {
   text-align: center;
 }
 body {
@@ -18,7 +22,7 @@ body {
 }
 
 header {
-  background-color: #F3EEEA;
+  background-color: #f3eeea;
   height: 70vh;
   width: 100%;
 }
@@ -41,12 +45,12 @@ header {
   color: #ffffff;
   text-wrap: balance;
 }
-.span1{
-  color: #B0A695  ;
+.span1 {
+  color: #b0a695;
 }
 
-.header-txt p{
-  color: #776B5D ;
+.header-txt p {
+  color: #776b5d;
 }
 
 .btns {
@@ -61,7 +65,7 @@ header {
   border-radius: 10px;
   border: none;
   color: #ffffff;
-  background-color: #90794f ;
+  background-color: #90794f;
   font-weight: 600;
   cursor: pointer;
 }
@@ -69,20 +73,20 @@ header {
   border: 4px solid rgb(255, 255, 255);
   width: 310px;
   height: 340px;
-  background:url(assets/wawaso.jpg) ;
+  background: url(assets/wawaso.jpg);
   background-position: center center;
   background-size: cover;
   border-radius: 79% 21% 78% 22% / 20% 69% 31% 80%;
 }
 
-.contact{
+.contact {
   padding: 10px 20px;
-  background-color: #90794f ;
+  background-color: #90794f;
   border-radius: 10px;
   color: #ffffff;
 }
-.header-txt h1{
-  color: #90794f    ;
+.header-txt h1 {
+  color: #90794f;
 }
 
 nav {
@@ -97,26 +101,25 @@ nav ul {
 }
 
 nav ul li a {
-  color: #776B5D ;
+  color: #776b5d;
   font-weight: 500;
 }
 
-.menu{
+.menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.icons1{
-  color: #25D366;
+.icons1 {
+  color: #25d366;
   cursor: pointer;
 }
 
-.icons2{
-  color: #BC2A8D;
+.icons2 {
+  color: #bc2a8d;
   cursor: pointer;
 }
-
 
 .toggle-switch {
   position: relative;
@@ -172,7 +175,9 @@ nav ul li a {
 }
 
 .checkbox:checked ~ .slider::before {
-  -webkit-transform: translateX(30px); /* Ajusta la posición del botón cuando el switch está activado */
+  -webkit-transform: translateX(
+    30px
+  ); /* Ajusta la posición del botón cuando el switch está activado */
   -ms-transform: translateX(30px);
   transform: translateX(30px);
   background-color: var(--dark);
@@ -180,32 +185,29 @@ nav ul li a {
   box-shadow: none;
 }
 
-
-.svg{
+.svg {
   margin-top: -70px;
 }
 
-
 /*MAIN*/
 
-main{
-
+main {
   min-height: 50vh;
-  background-color: #EBE3D5 ;
+  background-color: #ebe3d5;
   padding: 50px;
 }
 
-main p{
-  color: #776B5D ;
+main p {
+  color: #776b5d;
 }
 
-main h1{
+main h1 {
   padding-top: 100px;
-  color: #90794f ;
+  color: #90794f;
   padding-bottom: 50px;
 }
 
-.containerTec{
+.containerTec {
   display: flex;
   align-items: center;
   text-align: center;
@@ -214,7 +216,7 @@ main h1{
   flex-wrap: wrap;
 }
 
-.proximasTecnologias{
+.proximasTecnologias {
   display: flex;
   height: 300px;
   text-align: center;
@@ -222,7 +224,7 @@ main h1{
   align-items: center;
   flex-direction: column;
 }
-.tecnologias{
+.tecnologias {
   display: flex;
   height: 300px;
   text-align: center;
@@ -231,7 +233,7 @@ main h1{
   flex-direction: column;
 }
 
-.icons{
+.icons {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -240,18 +242,18 @@ main h1{
 
 /*PROYECTOS*/
 
-section{
+section {
   min-height: 120vh;
-  background-color: #F3EEEA ;
+  background-color: #f3eeea;
   padding: 50px;
 }
-.hunu{
+.hunu {
   padding-top: 50px;
   text-align: center;
   font-size: 2.4rem;
   color: #90794f;
 }
-.container-proyects{
+.container-proyects {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
@@ -261,55 +263,9 @@ section{
   padding-top: 100px;
 }
 
-
-.proyect1{
+.proyect1 {
   background: url(assets/cafes.png);
-  border: 2px solid ;
-  width: 350px;
-  height: 200px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;position: relative;
-}
-
-.proyect2{
-  background: url(assets/orientando.png);
-   border: 2px solid ;
-  width: 350px;
-  height: 200px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;position: relative;
-  
-}
-
-.proyect3{
-  background: url(assets/B&BLABS.png);
-   border: 2px solid ;
-  width: 350px;
-  height: 200px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;position: relative;
-  
-}
-
-
-
-.proyect4{
-  background: url(assets/students.png);
-   border: 2px solid ;
-  width: 350px;
-  height: 200px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;position: relative;
-  
-}
-
-.proyect5{
-  background: url(assets/ecomerce.png);
-   border: 2px solid ;
+  border: 2px solid;
   width: 350px;
   height: 200px;
   object-fit: cover;
@@ -318,7 +274,51 @@ section{
   position: relative;
 }
 
-.proyect6{
+.proyect2 {
+  background: url(assets/orientando.png);
+  border: 2px solid;
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.proyect3 {
+  background: url(assets/B&BLABS.png);
+  border: 2px solid;
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.proyect4 {
+  background: url(assets/students.png);
+  border: 2px solid;
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.proyect5 {
+  background: url(assets/ecomerce.png);
+  border: 2px solid;
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.proyect6 {
   background: url(assets/GeneradorDeColores.png);
   border: 2px solid #ffffff;
   width: 350px;
@@ -329,7 +329,7 @@ section{
   position: relative;
 }
 
-.btsP{
+.btsP {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -338,24 +338,22 @@ section{
   position: absolute;
   gap: 30px;
   flex-direction: column;
-
 }
-.btnsProyectInfo{
+.btnsProyectInfo {
   display: flex;
   gap: 20px;
 }
-.btsP button{
-    padding: 12px 25px;
-    border-radius: .625rem;
-    border: none;
-    color: #fff;
-    background-color: #0033ff;
-    display: none;
-    font-weight: 700;
-
+.btsP button {
+  padding: 12px 25px;
+  border-radius: 0.625rem;
+  border: none;
+  color: #fff;
+  background-color: #0033ff;
+  display: none;
+  font-weight: 700;
 }
 
-.btsP h1{
+.btsP h1 {
   color: #fff;
   display: none;
 }
@@ -365,11 +363,10 @@ section{
   overflow: hidden;
   cursor: pointer;
   transition: 1s;
-
 }
 
 .proy:hover::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -384,18 +381,14 @@ section{
   transition: 1s;
   display: block;
   z-index: 1;
- 
 }
 .proy:hover .btsP h1 {
   display: block;
- 
 }
 .proy:hover::before,
 .proy:hover img {
   opacity: 1;
-  
 }
-
 
 .button3 {
   display: flex;
@@ -407,7 +400,6 @@ section{
   background: #d5da493d;
   border-radius: 20px;
   cursor: pointer;
-
 }
 
 .lable3 {
@@ -427,7 +419,6 @@ section{
   background: #7ac8ff3a;
   border-radius: 20px;
   cursor: pointer;
-
 }
 
 .lable2 {
@@ -447,17 +438,14 @@ section{
   background: #e44c2644;
   border-radius: 20px;
   cursor: pointer;
-
 }
 
 .lable1 {
   font-size: 13px;
-  color: #E44D26;
+  color: #e44d26;
   font-family: sans-serif;
   letter-spacing: 1px;
 }
-
-
 
 .button4 {
   display: flex;
@@ -469,17 +457,16 @@ section{
   background: #61dafb40;
   border-radius: 20px;
   cursor: pointer;
-
 }
 
 .lable4 {
   font-size: 13px;
-  color: #61DAFB;
+  color: #61dafb;
   font-family: sans-serif;
   letter-spacing: 1px;
 }
 
-.btnsProyectsTec{
+.btnsProyectsTec {
   display: flex;
   gap: 20px;
   padding-top: 10px;
@@ -487,7 +474,7 @@ section{
 
 /*MODAL*/
 
-.modal{
+.modal1 {
   background-color: #fff;
   width: 800px;
   height: 500px;
@@ -496,4 +483,46 @@ section{
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
+  padding: 50px;
+  flex-direction: column;
+}
+
+
+.megaCOntainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+
+.imgModal {
+  width: 300px;
+  height: 200px;
+  margin-left: 20px;
+}
+
+.modalContent {
+  display: flex;
+  position: absolute;
+  gap: 100px;
+  text-align: center; 
+  margin-bottom: 250px;
+  position: absolute;
+}
+
+.infoModal {
+  width: 400px;
+  align-items: center;
+  text-wrap: balance;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+
+.Aprendizaje {
+  position: absolute;
+  margin-top: 250px;
 }
