@@ -11,6 +11,8 @@ const ModalComponent = ({ projectNumber }) => {
     return null;
   }
 
+  
+
   return (
     <div>
       {modalStates[projectNumber] && (
@@ -27,7 +29,7 @@ const ModalComponent = ({ projectNumber }) => {
                 <h1 style={{ color: isDarkMode ? theme.detallenos2D : theme.textD }}>
                   {currentProject.title}
                 </h1>
-                <img src={currentProject.img} alt="Orientando Un Futuro De Sueños" className='imgModal' />
+                <img src={currentProject.img} alt={currentProject.title} className='imgModal' />
                 {/* Agrega más contenido según sea necesario */}
               </div>
 
