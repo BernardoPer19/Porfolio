@@ -34,7 +34,8 @@ const Proyectos = () => {
                 </h1>
               </div>
 
-              <BoxBtnInsideProyect2 projectNumber={0} />
+              <BoxBtnInsideProyect2 projectNumber={0} projectNumber2={"https://bernardoper19.github.io/frapucho/"} />
+            
             </div>
           </div>
           <ButtonProyectComponent2></ButtonProyectComponent2>
@@ -49,7 +50,7 @@ const Proyectos = () => {
                 <h1>Orientando Un Futuro</h1>
               </div>
 
-              <BoxBtnInsideProyect2 projectNumber={1} />
+              <BoxBtnInsideProyect2 projectNumber={1}   />
             </div>
           </div>
           <ButtonProyectComponent2></ButtonProyectComponent2>
@@ -64,7 +65,7 @@ const Proyectos = () => {
                 <h1>B&B Labs Web</h1>
               </div>
 
-              <BoxBtnInsideProyect2 projectNumber={2} />
+              <BoxBtnInsideProyect2 projectNumber={2} projectNumber2={"https://bernardoper19.github.io/ByBLabs/"}/>
             </div>
           </div>
 

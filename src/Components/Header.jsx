@@ -1,14 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { usePorfolioContext } from "../Context/ContextPorfolio";
+import { IoMdMenu } from "react-icons/io";
 
 const Header = () => {
   const { isDarkMode, theme, toggleDarkMode } = usePorfolioContext();
+  const [toggleClick,setToggleClick]=useState(true)
 
+  const handleMenu = () => {
+    setToggleClick(prevState => !prevState);
+  };
   return (
     <header style={{ background: isDarkMode ? theme.backgrounD : theme.backgroundL }}>
-      <div className="menu  container">
+      <IoMdMenu onClick={handleMenu} className="muneBtn" size={60} style={{
+                color: isDarkMode ? theme.textD : theme.textD,
+              }} />
+
+
+      {
+        toggleClick && (
+          <div className="menu  container">
         <div className="toggle-switch">
           <label className="switch-label">
             <input
@@ -20,16 +32,23 @@ const Header = () => {
             <span className="slider"></span>
           </label>
         </div>
+        
         <nav>
           <ul>
             <li>
-              <a href=""  style={{ color: isDarkMode ? theme.textD : theme.textL }}>Inicio</a>
+              <a href=""  style={{
+                color: isDarkMode ? theme.textD : theme.textD,
+              }}>Inicio</a>
             </li>
             <li>
-              <a href=""  style={{ color: isDarkMode ? theme.textD : theme.textL }}>Sobre Mi</a>
+              <a href=""  style={{
+                color: isDarkMode ? theme.textD : theme.textD,
+              }}>Sobre Mi</a>
             </li>
             <li>
-              <a href=""  style={{ color: isDarkMode ? theme.textD : theme.textL }}>Mis Proyectos</a>
+              <a href="" style={{
+                color: isDarkMode ? theme.textD : theme.textD,
+              }}>Mis Proyectos</a>
             </li>
             <li>
               <a className="contact" href=""  style={{
@@ -41,6 +60,8 @@ const Header = () => {
           </ul>
         </nav>
       </div>
+        )
+      }
 
       <div className="header-content container">
         <div className="header-txt">
@@ -66,8 +87,10 @@ const Header = () => {
               Ver CV
             </button>
 
+            <div className="btnsRedes">
             <FaWhatsapp size={30} className="icons1" />
             <FaInstagram size={30} className="icons2" />
+            </div>
           </div>
         </div>
         <div className="imgBernardo">

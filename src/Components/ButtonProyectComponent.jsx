@@ -30,13 +30,13 @@ const ButtonProyectComponent = () => {
     </div>
   );
 };
-const BoxBtnInsideProyect2 = ({ projectNumber }) => {
+const BoxBtnInsideProyect2 = ({ projectNumber, projectNumber2 }) => {
     const { handleProjectModal } = usePorfolioContext();
   
     return (
       <>
         <div className="btnsProyectInfo">
-          <button>Ver Proyecto</button>
+         <a className="a" href={projectNumber2}> <button>Ver Proyecto</button></a>
           <button onClick={() => handleProjectModal(projectNumber)}>
             Mira Mi Aprendizaje!
           </button>
