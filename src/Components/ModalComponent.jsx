@@ -33,7 +33,8 @@ const ModalComponent = ({ projectNumber }) => {
                 {/* Agrega más contenido según sea necesario */}
               </div>
 
-              <div className="infoModal">
+           <div className="boxTheInfoi">
+           <div className="infoModal">
                 <h1 style={{ color: isDarkMode ? theme.detallenos2D : theme.textD }}>
                   Información:
                 </h1>
@@ -50,11 +51,10 @@ const ModalComponent = ({ projectNumber }) => {
               <p style={{ color: isDarkMode ? theme.textD : theme.textL }}>
                 {currentProject.aprendizaje}
               </p>
-              <p style={{ color: isDarkMode ? theme.textD : theme.textL }}>
-                <h1 style={{ color: isDarkMode ? theme.detallenos2D : theme.textD }}>Debilidad en el proyecto:</h1>{currentProject.loDificil}
-              </p>
+           
 
             </div>
+           </div>
 
           </div>
         </div>

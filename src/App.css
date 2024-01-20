@@ -799,3 +799,52 @@ section {
     font-size: 14px; /* Ajusta según tu preferencia */
   }
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .modal1 {
+    width: 70%;
+    height: 70vh;
+
+  }
+
+  .imgModal {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .modalContent {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    gap: 190px;
+    margin-bottom: 0;
+  }
+
+  .infoModal {
+    width: 100%;
+  }
+  .Aprendizaje{
+    width: 100%;
+
+  }
+
+  .boxTheInfoi{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal1 {
+    width: 90%;
+  }
+}

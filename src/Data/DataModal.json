@@ -7,7 +7,7 @@
     "img": "assets/cafes.png",
     "content": "Esta cafetería fue diseñada y creada por mí. Es una idea ficticia para prácticas en el DOM y funcionalidades en el e-commerce. Tiene 2 secciones accesibles: La tienda y Sobre Nosotros",
     "aprendizaje": "Aprendí mucho y mejoré en la estructuración de páginas web en HTML. También aprendí a lograr una armonía visual agradable en CSS y a manejar el DOM en JS. Esto incluye la implementación de funcionalidades como carrito de compras, secciones de compra, slider de imágenes y el uso de bibliotecas.",
-    "loDificil": "  Mi reto fue el carrito; simplemente fue un dolor de cabeza con el que pude salir satisfecho al completarlo. También la lógica fue algo que me complicó, es algo en lo que estoy en constante mejora.",
+    "loa": "  Mi reto fue el carrito; simplemente fue un dolor de cabeza con el que pude salir satisfecho al completarlo. También la lógica fue algo que me complicó, es algo en lo que estoy en constante mejora.",
     "techStack": ["HTML", "CSS", "JavaScript"]
   },
   {
@@ -16,7 +16,7 @@
     "img" : "assets/orientando.png",
     "content":"El proyecto más grande actualmente que tengo consta de aproximadamente 60 páginas. Este proyecto fue diseñado con el objetivo de ayudar a los estudiantes a elegir su carrera profesional, ofreciendo información completa sobre varias opciones. Fuimos tres personas trabajando en este proyecto, y yo asumí el rol de líder y desarrollador principal. Con este proyecto, obtuve mi excelencia y obtuve el título de técnico medio en ingeniería informática en sistemas. Actualmente, ya ha sido vendido a cinco colegios y ha beneficiado a más de 150 personas que han encontrado útil esta página.",
     "aprendizaje": "Aprendí cómo es trabajar en equipo y ser líder de un proyecto grande, organizar tiempos y horarios. Aunque fue difícil acostumbrarse, es algo que me ayudó mucho. También aprendí a exponer de manera más clara. Una de las cosas más importantes fue el diseño UX/UI, que comenzó a gustarme desde este proyecto.",
-    "loDificil": "Lo difícil fue la cantidad de páginas que tuve que crear y la investigación del proyecto. Una de las dificultades también fue la irresponsabilidad de un compañero, pero supimos afrontarlo igualmente. Fue un desafío bastante grande, ya que hubo varios factores que influyeron en poder completarlo en tan solo 2 semanas.",
+    "loa": "Lo difícil fue la cantidad de páginas que tuve que crear y la investigación del proyecto. Una de las dificultades también fue la irresponsabilidad de un compañero, pero supimos afrontarlo igualmente. Fue un desafío bastante grande, ya que hubo varios factores que influyeron en poder completarlo en tan solo 2 semanas.",
     "techStack": ["HTML", "CSS", "JavaScript"]
     
   },
@@ -26,7 +26,7 @@
     "img" : "assets/B&BLABS.png",
     "content": "La web de un trabajo para la exelecia en mi colegio, es una web de una empresa 'ficticia' con la que saque numero uno del colegio, destacando en mi diseño web y los proyectos que estuve haciendo como una 'empresa'",
     "aprendizaje": "Aprendi a exponer delante publico muy grande perdiendo el miedo",
-    "loDificil": " .",
+    "loa": " .",
     "techStack": ["HTML", "CSS", "JavaScript"]
   },
   {
@@ -43,7 +43,7 @@
     "img" : "assets/ecomerce.png",
     "content": "Una pequeña E-comerce que esta en un api yhacemos un fetch a los objetos, tiene un filtrado de busqueda de precios y busqueda por categorias, su diseño es simple, con un slider y su informacion",
     "aprendizaje": "Mi aprendizaje fue entender los estados previos de cada elemento y como actualizarlos en forma real, o sea, cundo hay uhn cambio de estado",
-    "loDificil": "Lo dificil fue intentar el carrito de compras que me queda pendiente aprender en react, se me dificulto un poco este tema",
+    "loa": "Lo dificil fue intentar el carrito de compras que me queda pendiente aprender en react, se me dificulto un poco este tema",
     "techStack": ["mreact", "CSS", "JavaScript"]
   },
   {
@@ -52,7 +52,7 @@
     "img" : "assets/GeneradorDeColores.png",
     "content": "Esto es un generador de paletas de colores que se agarra de un api que tiene varias configuraciones, en este caso lo hice simple y busca la paleta de colores en ingles, ejemplo: 'pink','purple','gold' y todos los colores en general",
     "aprendizaje": "Encontrar y buscar informacion de las api",
-    "loDificil": "",
+    "loa": "",
     "techStack": ["HTML", "CSS", "JavaScmanejarript"]
   },
   {
@@ -61,7 +61,7 @@
     "img" : "assets/B&BLABS.png",
     "content": "Esmanejarta DOMpene ",
     "aprendizaje": "manejar el DOM en JS. E",
-    "loDificil": "   mejora.",
+    "loa": "   mejora.",
     "techStack": ["HTML", "CSS", "JavaScmanejarript"]
   }
 ]
