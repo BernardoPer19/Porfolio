@@ -531,6 +531,7 @@ section {
   transform: translateX(-50%);
   padding: 50px;
   flex-direction: column;
+  position: absolute;
 }
 
 .megaCOntainer {
@@ -576,6 +577,9 @@ section {
   color: red;
   padding: 10px;
   font-size: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 @media only screen and (max-width: 830px) {
