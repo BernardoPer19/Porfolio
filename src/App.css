@@ -18,9 +18,7 @@
   display: flex;
   gap: 20px;
 }
-.muneBtn{
-  padding: 30px;
-}
+
 p {
   font-size: 14px;
 }
@@ -61,6 +59,15 @@ header {
 
 .header-txt p {
   color: #776b5d;
+}
+
+.cajasPorf{
+  display: flex;
+  text-align: center;
+  width: 90%;
+  justify-content: space-between;
+  padding: 20px;
+  
 }
 
 .btns {
@@ -152,6 +159,7 @@ nav ul li a {
   margin-right: 20px;
   display: flex;
   padding-right: 30px;
+  padding-top: 20px;
   justify-content: flex-end;
 }
 .switch-label {
@@ -262,7 +270,7 @@ main h1 {
   display: flex;
   align-items: center;
 
-  gap: 20px;
+  gap: 40px;
   color: #fff;
 }
 .tec1 {
@@ -574,6 +582,15 @@ section {
     width: 90%;
     margin: 0 auto;
   }
+  .cajasPorf{
+    display: flex;
+    text-align: center;
+    width: 90%;
+    gap: 100px;
+    justify-content: space-between;
+    padding: 20px;
+    
+  }
 
   /* Header */
   header {
@@ -583,11 +600,10 @@ section {
   }
 
   .muneBtn {
-    display: block; /* Mostrar en dispositivos móviles */
+    display: block;
     cursor: pointer;
     z-index: 312;
-    position: fixed;
-    padding: 0px;
+    font-size: 20px;
   }
 
   .menu {
@@ -655,15 +671,33 @@ section {
   .header-txt {
     font-size: 16px; /* Ajusta según tu preferencia */
   }
+  .muneBtn {
+    cursor: pointer;
+    z-index: 312;
+    font-size: 30px;
+
+  }
 }
 
+@media only screen and (max-width: 292px) {
+
+  .muneBtn {
+    cursor: pointer;
+    z-index: 312;
+    font-size: 33210px;
+
+  }
+}
 @media only screen and (max-width: 1024px) {
   .proy {
     position: relative;
     overflow: hidden;
     cursor: pointer;
     transition: 1s;
+
   }
+
+ 
 
   .proy::before {
     content: "";
@@ -692,6 +726,11 @@ section {
 }
 
 @media (max-width: 992px) {
+  main {
+    min-height: 80vh;
+    background-color: #ebe3d5;
+    padding: 50px;
+  }
   .imgBernardo {
     width: 300px;
     height: 300px; /* Ajusta según tu preferencia */
@@ -699,9 +738,17 @@ section {
 }
 
 @media only screen and (max-width: 400px) {
+  main {
+    min-height: 130vh;
+    background-color: #ebe3d5;
+    padding: 50px;
+  }
   .container {
     width: 90%;
     margin: 0 auto;
+  }
+  .proximasTecnologias{
+    margin-top: 100px;
   }
 
   /* Header */

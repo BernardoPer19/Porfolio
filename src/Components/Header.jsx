@@ -15,7 +15,8 @@ const Header = () => {
     <header
       style={{ background: isDarkMode ? theme.backgrounD : theme.backgroundL }}
     >
-      <IoMdMenu
+<div className="cajasPorf container">
+<IoMdMenu
         onClick={handleMenu}
         className="muneBtn" // Ajusta la clase aquí
         size={60}
@@ -23,26 +24,27 @@ const Header = () => {
           color: isDarkMode ? theme.textD : theme.negro,
         }}
       />
+      <div className="boxSwich">
+        <div className="toggle-switch">
+          <label className="switch-label">
+            <input
+              type="checkbox"
+              className="checkbox"
+              checked={isDarkMode}
+              onChange={toggleDarkMode}
+            />
+            <span className="slider"></span>
+          </label>
+        </div>
+      </div>
+</div>
+     
       {toggleClick && (
         <div className="menu">
           <div className="menuCaja">
             <nav>
               <ul>
-                <li>
-                  <div className="boxSwich">
-                    <div className="toggle-switch">
-                      <label className="switch-label">
-                        <input
-                          type="checkbox"
-                          className="checkbox"
-                          checked={isDarkMode}
-                          onChange={toggleDarkMode}
-                        />
-                        <span className="slider"></span>
-                      </label>
-                    </div>
-                  </div>
-                </li>
+                <li></li>
                 <li>
                   <a
                     href=""
