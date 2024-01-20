@@ -734,7 +734,7 @@ section {
 @media (max-width: 992px) {
   .modal1 {
     width: 70%;
-    height:100vh;
+    min-height:100vh;
     
 
     }
@@ -821,7 +821,7 @@ section {
 @media screen and (max-width: 1200px) {
   .modal1 {
     width: 70%;
-    height:100vh;
+    min-height:100vh;
 
     }
    
@@ -862,7 +862,7 @@ section {
   }
     .modal1 {
     width: 70%;
-    height:100vh;
+    min-height:100vh;
 
   }
 }
@@ -871,7 +871,7 @@ section {
 
     .modal1 {
     width: 70%;
-    height:90vh;
+    min-height:90vh;
 
   }
 }
