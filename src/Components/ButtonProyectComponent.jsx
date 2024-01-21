@@ -38,7 +38,7 @@ const BoxBtnInsideProyect2 = ({ projectNumber, projectNumber2 }) => {
         <div className="btnsProyectInfo">
          <a className="a" href={projectNumber2}> <button>Ver Proyecto</button></a>
           <button onClick={() => handleProjectModal(projectNumber)}>
-            Mira Mi Aprendizaje!
+            Info Del Proyecto
           </button>
         </div>
       </>

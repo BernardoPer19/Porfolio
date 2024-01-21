@@ -82,10 +82,11 @@ header {
   border-radius: 10px;
   border: none;
   color: #ffffff;
-  background-color: #90794f;
   font-weight: 600;
   cursor: pointer;
 }
+
+
 .imgBernardo {
   border: 4px solid rgb(255, 255, 255);
   width: 310px;
@@ -397,7 +398,13 @@ section {
   background-color: #0033ff;
   display: none;
   font-weight: 700;
+  cursor: pointer;
 }
+
+.btsP button:hover {
+  background-color: #597aff;
+}
+
 
 .btsP h1 {
   color: #fff;
@@ -539,22 +546,24 @@ section {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  height: 100%
+  justify-content: center;
+  text-align: center;
+  height: 100%;
 }
 
-.imgModal {
-  width: 300px;
-  height: 200px;
-  margin-left: 20px;
-}
+
 
 .modalContent {
   display: flex;
   position: absolute;
-  gap: 100px;
+  gap: 50px;
   text-align: center;
+  justify-content: center;
   margin-bottom: 300px;
+  flex-direction: column;
+  text-align: center;
   position: absolute;
+  width: 100%;
 }
 
 .infoModal {
@@ -563,7 +572,8 @@ section {
   text-wrap: balance;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  width: 100%;
+  text-align: center;
 }
 
 .Aprendizaje {
@@ -685,9 +695,10 @@ section {
 
   .modal1 {
     width: 70%;
-    min-height:100vh;
+    min-height:40vh;
 
     }
+
 }
 
 @media only screen and (max-width: 292px) {
@@ -739,7 +750,7 @@ section {
 @media (max-width: 992px) {
   .modal1 {
     width: 70%;
-    min-height:100vh;
+    min-height:40vh;
     
 
     }
@@ -826,7 +837,7 @@ section {
 @media screen and (max-width: 1200px) {
   .modal1 {
     width: 70%;
-    min-height:100vh;
+    min-height:40vh;
 
     }
    
@@ -867,7 +878,7 @@ section {
   }
     .modal1 {
     width: 70%;
-    min-height:100vh;
+    min-height:40vh;
 
   }
 }
@@ -876,7 +887,27 @@ section {
 
     .modal1 {
     width: 70%;
-    min-height:90vh;
+    min-height:40vh;
 
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 673px) {
+
+  .megaCOntainer{
+    margin-top: 100px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .modalContent{
+    margin-top: 100px;
+    gap: 10px;
   }
 }

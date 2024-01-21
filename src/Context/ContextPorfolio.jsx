@@ -89,7 +89,6 @@ export const ContextPorfolioProvider = ({ children }) => {
     handleProjectModal,
     handleModal,
     theme: isDarkMode ? darkTheme : lightTheme,
-    img1,img2,img3,img4,img5,img6
   };
 
   return (
