@@ -121,12 +121,14 @@ const Header = () => {
                 background: isDarkMode ? theme.botonesD : theme.botones2L,
               }}
             >
-              Ver CV
+              <a href="https://drive.google.com/file/d/1SFb751QQOSzzKNf2-pChJL92ORb5jOIt/view?usp=sharing" className="a">Ver CV</a>
             </button>
 
             <div className="btnsRedes">
-              <FaWhatsapp size={30} className="icons1" />
-              <FaInstagram size={30} className="icons2" />
+             
+              <a href="https://wa.me/64854829/?text=Hola, me interesó tu porfolio!"> <FaWhatsapp size={30} className="icons1" /></a>
+            
+              <a href="https://www.instagram.com/b.eww_/">  <FaInstagram size={30} className="icons2" /></a>
             </div>
           </div>
         </div>
